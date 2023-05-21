@@ -21,7 +21,8 @@ python3 run.py --idx image_idx
 python3 run.py --idx 45
 ```
 **output**
-`output for 'Or' logic gate is 1`
+![sample](src/output.png)
+
 
 ## Accuray and Loss 
 
