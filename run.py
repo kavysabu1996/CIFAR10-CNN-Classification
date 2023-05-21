@@ -10,7 +10,7 @@ labels = {0:"airplane", 1:"automobile", 2:"bird", 3:"cat", 4:"deer",
           5:"dog", 6:"frog", 7:"horse", 8:"ship", 9:"truck"}
 
 
-model = tf.keras.models.load_model('models/cnn_epoch10.h5')
+model = tf.keras.models.load_model('src/models/cnn_epoch10.h5')
 x_test  = x_test/255 
 
 def make_prediction(idx):
